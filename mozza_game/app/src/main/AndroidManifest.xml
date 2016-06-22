@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.board.stann.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameMechanics"
+            android:label="GameMechanics"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".MultiPlayer"
+            android:label="Multiplayer"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".HowToPlay"
+            android:label="@string/title_activity_howtoplay"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".SinglePlayer"
+            android:label="@string/title_activity_singleplayer"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".SavePlayer"
+            android:label="@string/title_activity_save_player"
+            android:screenOrientation="landscape"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".SaveMultiplayer"
+            android:label="@string/title_activity_save_multiplayer"
+            android:screenOrientation="landscape"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".GameStatistics"
+            android:label="@string/title_activity_gamestatitics"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

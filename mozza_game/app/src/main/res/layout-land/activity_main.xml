@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.board.game.MainActivity"
+    >
+
+
+    <ImageButton
+        android:id="@+id/singlebutton"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="370dip"
+        android:layout_marginTop="63dip"
+        android:src="@drawable/singleplayer"
+
+        android:onClick="onClick"/>
+
+    <ImageButton
+
+        android:id="@+id/multibutton"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="350dip"
+        android:layout_marginTop="103dip"
+        android:onClick="onClick"
+        android:src="@drawable/twoplayer" />
+
+    <ImageButton
+        android:id="@+id/howtoplaybutton"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="370dip"
+        android:layout_marginTop="143dip"
+        android:src="@drawable/howtoplay"
+        android:onClick="onClick"/>
+
+    <ImageButton
+        android:id="@+id/statitics"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="350dip"
+        android:layout_marginTop="183dip"
+        android:src="@drawable/statitics"
+        android:onClick="onClick" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gamequit"
+        android:src="@drawable/gamequit2"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="200dip"
+        android:visibility="visible"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/managemusic"
+        android:src="@drawable/soundon1"
+
+        android:onClick="onClick"
+
+        android:layout_marginLeft="470dp"
+        android:layout_marginStart="58dp" />
+
+
+
+
+</RelativeLayout>
